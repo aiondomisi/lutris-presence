@@ -51,3 +51,7 @@ tail -F /tmp/lutris-presence.log
 - Game name matching against Discord's list is an exact, case-insensitive match. To use the official app ID, set the game's name in Lutris to match the official title exactly, as it appears in the `name` field of [Discord's detectable games list](https://discord.com/api/v9/applications/detectable).
 - Not working for games imported from your Steam library, or any other game where Lutris ends the session immediately and the game opens in its own launcher. Lutris runs `end.sh` as soon as the session stops, which kills the presence before the game has actually started.
 - `.venv` contains absolute paths. If you move the project folder, delete `.venv` and re-run `install.sh`.
+
+## Credits
+ 
+Inspired by [steam-presence](https://github.com/JustTemmie/steam-presence).
