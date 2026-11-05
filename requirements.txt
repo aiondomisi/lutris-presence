@@ -1,0 +1,4 @@
+pypresence
+python-steamgriddb
+requests
+python-dotenv
