@@ -2,6 +2,11 @@
 
 Discord Rich Presence for games launched from Lutris. When a game starts, it shows up on your Discord profile as "Playing <game>", with cover art pulled from SteamGridDB.
 
+<img width="475" height="194" alt="image" src="https://github.com/user-attachments/assets/7fd9cd21-7169-42ba-bd3b-dc065f5b4406" />
+<img width="493" height="194" alt="image" src="https://github.com/user-attachments/assets/d71905ba-b78f-4a77-8ca9-81c55c1bb7b8" />
+
+
+
 ## How it works
 
 1. Lutris runs `start.sh` before the game launches and passes the game name in `$GAME_NAME`.
